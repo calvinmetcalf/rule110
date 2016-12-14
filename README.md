@@ -1,7 +1,9 @@
-# WebGL Game of Life
+# Rule 110
 
-* Online Demo: http://skeeto.github.io/webgl-game-of-life/
+screwing around with rule 110
 
-An implementation of Conway's Game of Life that runs entirely on the
-graphics card. The browser's only job is to initialize it with random
-state and make regular draw calls.
+https://calvinmetcalf.github.io/rule110
+
+
+
+Vaguely based on http://skeeto.github.io/webgl-game-of-life/
