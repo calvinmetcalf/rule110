@@ -1,7 +1,7 @@
-var rootWidth = 40;
+var rootWidth = 20;
 
 var baseWidth = rootWidth * 14 * 2;;
-var baseHeight = 1600;
+var baseHeight = 900;
 var width;
 var ctx,canvas;
 var imageWidth;
@@ -111,7 +111,7 @@ function start() {
   var ships = {
     1: spaceshipA,
     //7: spaceshipC,
-   14: spaceshipB,
+   8: spaceshipB,
   4: spaceshipD
   };
   var extra = Object.keys(ships).reduce((acc, key)=>ships[key].pattern.length * 4 + acc, 0);
